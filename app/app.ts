@@ -3,6 +3,8 @@ import {ionicBootstrap, Platform, MenuController, Nav} from 'ionic-angular';
 import {StatusBar} from 'ionic-native';
 //import {HelloIonicPage} from './pages/hello-ionic/hello-ionic';
 //import {ListPage} from './pages/list/list';
+
+
 import {UsersPage} from './pages/users/users';
 import {ReposPage} from './pages/repos/repos';
 import {OrganizationsPage} from './pages/organizations/organizations';
@@ -26,8 +28,8 @@ class MyApp {
     // set our app's pages
     this.pages = [
       { title: 'Users', component: UsersPage },
-      { title: 'Repos', component: ReposPage },
-      { title: 'Organizations', component: OrganizationsPage}
+      { title: 'Organization', component: OrganizationsPage },
+      { title: 'Repos', component: ReposPage }
     ];
   }
 
